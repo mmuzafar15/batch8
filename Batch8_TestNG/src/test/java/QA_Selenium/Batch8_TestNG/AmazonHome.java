@@ -16,7 +16,7 @@ public class AmazonHome { //Store Elements with help of Locators
 	@FindBy(xpath="//*[@name='email']") WebElement facebookEmailField;
 	@FindBy(xpath="//*[@name='pass']") WebElement facebookPassField;
 
-
+//changes
 	public AmazonHome(WebDriver driver) {  //Page Factory Constructor
 		AmazonHome.driver=driver;
 		PageFactory.initElements(driver, this);
